@@ -16,7 +16,7 @@ body{
 
     /*created for first header row*/
 
-.header-1-3{            /* used for 1st and 3rd header*/
+.header-top-bottom{            /* used for 1st and 3rd header*/
     max-width: 1090px;
     margin: 0 auto;
     display: flex;
@@ -57,15 +57,16 @@ body{
 
     /*created for second header row*/
 
-.header-2{
+.header-middle{
     background-color: #D8D6D7;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 
-.hline{
-    color: #ece4e8;
-    margin: 0px;
+.horizontal-line{
+    color: #faf6f8;
+    margin: 1px;
     padding: 0px;
+    border: 1px solid #D8D6D7;
 }
 
 .nav-middle-list{
@@ -83,14 +84,14 @@ body{
     border-right: none;
 }
 .nav-middle-list li a:not(.Dining, .mid-search-button){
-    padding: 0px 17px 0px 17px;
+    padding: 0px 14px 0px 14px;
 }
 .nav-middle-list li a{
     text-decoration: none;
     color: #2D2B2C;
     font-size: 13px;
 }
-.Dining{
+.first-nav-middle-item{
     padding-right: 17px;
 }
 .search-box{
@@ -118,8 +119,8 @@ body{
     text-decoration: none;
     padding: 3px;
 }
-.give-space{
-    width: 14%
+.nav-middle-right-space{
+    width: 17%
 }
 
          /* created for third header*/
@@ -227,25 +228,25 @@ body{
     height: 180px;
 }
 
-.columnA, .columnB, .columnC{
+.column-left, .column-middle, .column-right{
     padding: 16px 20px;
     width: 33.33%;
 }
 
-.columnA{
+.column-left{
     background-image: url('promo_glass.png');
     background-repeat: no-repeat;
     background-size: 90% 100%;
     
 }
-.columnB{
+.column-middle{
     background-image: url('promo_plates.png');
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
 
 }
-.columnC{
+.column-right{
     background-image: url('promo_album.png');
     background-repeat: no-repeat;
     background-size: 60% 100%;
@@ -258,34 +259,34 @@ body{
     height: 140px;
 
 }
-.columnA-heading, .columnB-heading, .columnC-heading{
+.column-left-heading, .column-middle-heading, .column-right-heading{
     font-size: 17px;
     font-weight: normal;
     padding-bottom: 5px;
     color: black;
 }
-.columnA-paragraph, .columnB-paragraph, .columnC-paragraph{
+.column-left-paragraph, .column-middle-paragraph, .column-right-paragraph{
     font-size: 13px;
     font-weight: lighter;
 }
 
-.columnC-heading, .columnC-paragraph{
+.column-right-heading, .column-right-paragraph{
     max-width: 150px;
 }
 
-.columnA-link{
+.column-left-link{
     font-size: 13px;
     position: sticky;
     left: 440px;
     text-decoration: none;
 }
-.columnB-link{
+.column-middle-link{
     font-size: 13px;
     position: sticky;
     left: 830px;
     text-decoration: none;
 }
-.columnC-link{
+.column-right-link{
     font-size: 13px;
     position: sticky;
     text-decoration: none;
